@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: purple;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-youtube{
+    color: #c4302b;
+}
+a i{
+    transition: all .3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+header{width: 100%;
+    height: 100vh;
+    background: lightblue;
+    background-image: linear-gradient(
+        rgba(97, 48, 18, 0.692),
+        rgba(97, 48, 18, 0.692)
+    ) ,url("coffe.jpg");
+background-size: cover;
+background-position: center; 
+
+
+
+}
+
+.navbar{
+    height: 10%;
+    
+    display:flex;
+
+}
+.nav-left{
+    flex-basis: 30%;
+    background-color: white;
+   position: relative;
+}
+
+.icons{
+    left: 5%;
+    top: 10%;
+    position: absolute;
+}
+
+.icons ul li{
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.icons ul li i{
+    color: gray;
+}
+.nav-right{
+    flex-basis: 70%;
+    position: relative;
+}
+.menu{
+    top: 15%;
+    right: 2%;
+    position: absolute;
+}
+
+
+
+.menu ul li{
+        display: inline-block;
+        margin-left: 15px;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.menu ul li a:hover{
+    transform: scale(1.4);
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    transition: all .3s linear;
+    
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.content{
+    height: 90%;
+    
+display: flex;
+}
+.content-left{
+    flex-basis: 30%;
+    background-color: white;
+    position: relative;
+}
+.social-media{
+    bottom: 5%;
+    position: absolute;
+}
+
+.social-media ul li{
+     height: 30px;
+    width: 30px; 
+    margin: 20px;
+    list-style: none;
+    background: rgb(230, 227, 227);
+border-radius: 10px;
+border-width: 500px;
+box-shadow: 1px 4px 2px 2px #474747;
+}
+.social-media ul li i{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.content-right{
+    flex-basis: 70%;
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+.text h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.text p{
+    font-size: 25px ;
+    color: white;
+    font-family: 'Dancing Script', cursive;;
+}
+
+.display{
+    bottom: 5%;
+    left: -30%;
+    position: absolute;
+}
+.display img{
+
+    height: 50%;
+    width: 50%;
+}
+
